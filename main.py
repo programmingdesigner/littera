@@ -337,7 +337,7 @@ class textEditor(wx.Frame):
 
             with open("options/pdf_options.html", "r", encoding="utf-8") as options:
                 source = options.read() + content + \
-                    "<pdf:nextpage/><div><pdf:toc/></div><div><pdf:spacer height=""20pt""><hr><p>Made with <span style=""font-weight:bold;"">Littera Text Editor</span></p></div>" + "</body></html>"
+                    "<pdf:nextpage/><div><pdf:toc/></div><div><pdf:spacer height=""20pt""><hr><p>Made with <span style=""font-weight:bold;"">Littera Note-taking App</span></p></div>" + "</body></html>"
 
             def html2pdf(source, output):
                 with open(os.path.join(self.dirname, output), "w+b") as file:
