@@ -1,0 +1,8 @@
+
+Literra is a lightweight, yet capable note-taking app, which supports Latin and Cyrillic characters and has built-in HTML preview and PDF export features.
+
+It is primarily designed for writing and then exporting Markdown Files to PDF. However, it is also capable of writing Text and relatively simple HTML Documents.
+
+Currently, the HTML preview works only for Markdown Files. Other features include case-insensitive search with detailed results and document export with built-in page numbers and table of contents.
+
+Littera was developed solo by programmingdesigner.
